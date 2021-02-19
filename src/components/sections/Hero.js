@@ -110,8 +110,24 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <iframe width={896}
-              height={504} src="https://www.youtube.com/embed/hKS32bCdN1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div
+      className="video"
+      style={{
+        position: "relative",
+        paddingBottom: "56.25%" /* 16:9 */,
+        paddingTop: 25,
+        height: 0
+      }}
+    >
+              <iframe style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%"
+        }} src="https://www.youtube.com/embed/hKS32bCdN1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+              </div>
             {/*<Image
               className="has-shadow"
               src="https://cdn.glitch.com/96e3a537-d786-44ff-b2b9-52453aa455dc%2FTV%20Banner.png?v=1600592501328"
@@ -125,7 +141,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://www.youtube.com/embed/hKS32bCdN1k"
             videoTag="iframe"
           /> */}
         </div>

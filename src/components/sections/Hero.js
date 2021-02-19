@@ -94,7 +94,7 @@ const Hero = ({
                   <Button
                     tag="a"
                     style={{ borderRadius: 16 }}
-                    color="green"
+                    color="dark"
                     wideMobile
                     href="https://www.anytimefair.com/toyfair/booth/stall1.php?slug=i1416"
                   >

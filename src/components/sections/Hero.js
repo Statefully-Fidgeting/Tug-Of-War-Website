@@ -82,7 +82,7 @@ const Hero = ({
                   >
                     Get it on Google Play
                   </Button>
-                  <Button
+                  {/*<Button
                     tag="a"
                     style={{borderRadius:16}}
                     color="dark"
@@ -90,7 +90,17 @@ const Hero = ({
                     href="/scoring"
                   >
                     How to win
+                  </Button>*/}
+                  <Button
+                    tag="a"
+                    style={{borderRadius:16}}
+                    color="primary"
+                    wideMobile
+                    href="https://www.anytimefair.com/toyfair/booth/stall1.php?slug=i1416"
+                  >
+                    Visit us at India Toy Fair 2021
                   </Button>
+                  
                 </ButtonGroup>
               </div>
             </div>

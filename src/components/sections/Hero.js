@@ -75,7 +75,7 @@ const Hero = ({
                 <ButtonGroup>
                   <Button
                     tag="a"
-                    style={{borderRadius:16}}
+                    style={{ borderRadius: 16 }}
                     color="primary"
                     wideMobile
                     href="https://play.google.com/store/apps/details?id=com.statefullyfidgeting.tugofwar"
@@ -93,14 +93,14 @@ const Hero = ({
                   </Button>*/}
                   <Button
                     tag="a"
-                    style={{borderRadius:16}}
-                    color="primary"
+                    style={{ borderRadius: 16 }}
+                    color="green"
                     wideMobile
                     href="https://www.anytimefair.com/toyfair/booth/stall1.php?slug=i1416"
                   >
                     Visit us at India Toy Fair 2021
                   </Button>
-                  
+
                 </ButtonGroup>
               </div>
             </div>
@@ -110,19 +110,15 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            {/* <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            > */}
-            <Image
+            <iframe width={896}
+              height={504} src="https://www.youtube.com/embed/hKS32bCdN1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {/*<Image
               className="has-shadow"
               src="https://cdn.glitch.com/96e3a537-d786-44ff-b2b9-52453aa455dc%2FTV%20Banner.png?v=1600592501328"
               alt="Hero"
               width={896}
               height={504}
-            />
+            />*/}
             {/* </a> */}
           </div>
           {/* <Modal
